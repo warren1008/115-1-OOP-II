@@ -7,8 +7,8 @@
 - [Week 01](week-01/README.md)
   - [Assignment 01：登入視窗](week-01/assignment-01/README.md)
   - [Assignment 02：骰子模擬器](week-01/assignment-02/README.md)
-- [Week 02](week-02/README.md)
-  - [Assignment 01：單位換算器](week-02/assignment-01/README.md)
+
+尚未完成的週次會在作業完成後加入索引與推送。
 
 ## GitHub
 
