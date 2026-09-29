@@ -1,0 +1,24 @@
+# Java build outputs
+out/
+**/out/
+*.class
+*.jar
+
+# IDE and operating-system files
+.vscode/
+.idea/
+*.iml
+*.log
+.DS_Store
+Thumbs.db
+
+# Local course references and source materials
+/課本/
+/W1 hw/
+/AI 使用政策.png
+/GUI.pdf
+/OOP2_Week1.pdf
+
+# Locally generated artifacts
+/output/
+/tmp/
