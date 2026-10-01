@@ -21,7 +21,7 @@
 - 編譯／執行：已使用 JDK 25.0.2 與 UTF-8 編譯成功。
 - 功能測試：已完成 300 次自動擲骰測試，逐次檢查點數範圍、次數、總和、平均與顏色。
 - 執行截圖：[dice-simulator.png](evidence/run/dice-simulator.png)。
-- AI 對話截圖：待使用者將本次真實對話截圖放入 `evidence/ai-dialogue/`。
+- AI 對話截圖：已加入 2 張真實對話截圖，依時間順序存放於 `evidence/ai-dialogue/`。
 - Reflection：已有依本次過程整理的草稿，仍需使用者親自確認並改成自己的文字。
 
 ## 檔案結構
@@ -33,7 +33,7 @@ assignment-02/
 |-- evidence/
 |   |-- assignment/作業_2.png
 |   |-- run/dice-simulator.png
-|   `-- ai-dialogue/              待補真實對話截圖
+|   `-- ai-dialogue/              真實 AI 對話截圖
 |-- README.md
 `-- Reflection.md
 ```
@@ -58,4 +58,4 @@ java -cp out DiceSimulator
 
 ## AI 使用聲明
 
-本作業已使用 AI 協助整理規格、撰寫程式、建立測試與交件結構。依課程政策，提交前必須把本次真實 AI 對話截圖放入 `evidence/ai-dialogue/`，並由學生親自完成 `Reflection.md`。
+本作業已使用 AI 協助整理規格、撰寫程式、建立測試與交件結構。真實 AI 對話截圖已保存於 `evidence/ai-dialogue/`；依課程政策，仍須由學生親自完成 `Reflection.md`。

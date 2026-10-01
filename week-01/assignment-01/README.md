@@ -26,7 +26,7 @@
 - 編譯：使用 JDK 25.0.2、UTF-8 編譯成功。
 - 自動化 GUI 測試：全部通過。
 - 執行截圖：[登入成功畫面](evidence/run/login-success.png)。
-- AI 對話截圖：待使用者將本次真實對話截圖放入 `evidence/ai-dialogue/`。
+- AI 對話截圖：已加入 10 張真實對話截圖，依時間順序存放於 `evidence/ai-dialogue/`。
 - Reflection：已有依本次修改整理的草稿，提交前需由使用者確認並改成自己的表達。
 
 ## 已完成的測試
@@ -47,4 +47,4 @@ java -cp out LoginWindow
 
 ## AI 使用聲明
 
-本作業已使用 AI 協助整理題目、分析題目附帶的 AI 範例並產生修正版程式。真實 AI 對話截圖仍需由使用者保存；Reflection 草稿必須經使用者確認並改成自己的表達。
+本作業已使用 AI 協助整理題目、分析題目附帶的 AI 範例並產生修正版程式。真實 AI 對話截圖已保存於 `evidence/ai-dialogue/`；Reflection 草稿仍須經使用者確認並改成自己的表達。
