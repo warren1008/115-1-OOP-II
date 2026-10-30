@@ -9,6 +9,7 @@
   - [Assignment 02：骰子模擬器](week-01/assignment-02/README.md)
 - [Week 02](week-02/README.md)
   - [Assignment 01：單位換算器](week-02/assignment-01/README.md)
+  - [Assignment 2：骰子模擬器 2（觸發事件練習）](week-02/assignment-2/README.md)
 - [Week 03](week3/README.md)
   - [課堂練習：畫一個機器人](week3/class-practice/README.md)
   - [Assignment 01：我的小房子](week3/assignment-01/README.md)
