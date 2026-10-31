@@ -57,7 +57,7 @@ assignment-2/
 |-- evidence/
 |   |-- assignment/gui-page-32.png   原版題目頁面
 |   |-- run/                        真實執行截圖與驗證紀錄
-|   `-- ai-dialogue/README.md        待使用者補上本次真實對話截圖
+|   `-- ai-dialogue/                2 張真實對話截圖及索引 README.md
 |-- README.md
 `-- Reflection.md                   待本人改寫的反思草稿
 ```
@@ -71,11 +71,20 @@ assignment-2/
 - [測試紀錄](evidence/run/verification.md)。
 - [真實視窗截圖](evidence/run/01-dice-window.jpg)。
 
+## AI 對話紀錄
+
+已於 2026-11-01 確認使用者補入的 2 張真實截圖：
+
+1. [觸發事件需求、實作與測試摘要](evidence/ai-dialogue/螢幕擷取畫面%202026-11-01%20011816.png)。
+2. [檔案清單與當時推送結果](evidence/ai-dialogue/螢幕擷取畫面%202026-11-01%20011822.png)。
+
+詳細內容見 [對話截圖索引](evidence/ai-dialogue/README.md)。
+
 ## AI 使用與待完成事項
 
 本次使用 AI 協助讀取參考資料、整理事件流程、撰寫程式、執行測試與建立作業文件。
 
 - 程式碼與執行證據已備妥。
-- 本次 AI 對話截圖尚未提供，請補入 `evidence/ai-dialogue/`。
+- 本次 AI 對話截圖已補齊，共 2 張，存放於 `evidence/ai-dialogue/`。
 - `Reflection.md` 是依實際過程整理的草稿，須由本人操作、確認與改寫後再繳交。
 - GitHub 儲存庫保存作業版本；課程平台繳交仍由使用者完成。

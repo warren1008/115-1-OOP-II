@@ -22,12 +22,12 @@
 
 ## 目前狀態
 
-- 程式碼：已完成初版，位於 `src/LoginWindow.java`。
+- 程式碼：已完成，位於 `src/LoginWindow.java`。
 - 編譯：使用 JDK 25.0.2、UTF-8 編譯成功。
-- 自動化 GUI 測試：全部通過。
+- 自動化 GUI 測試：2026-11-01 重新驗證通過，包含 `equals()` 與物件參考不同的案例；詳見 [驗證紀錄](evidence/run/verification.md)。
 - 執行截圖：[登入成功畫面](evidence/run/login-success.png)。
 - AI 對話截圖：已加入 10 張真實對話截圖，依時間順序存放於 `evidence/ai-dialogue/`。
-- Reflection：已有依本次修改整理的草稿，提交前需由使用者確認並改成自己的表達。
+- Reflection：[全文已整理](Reflection.md)，保留本人已修改的內容並補上這次提出的 `equals()` 疑問；繳交前需本人確認理解與文字表達。
 
 ## 已完成的測試
 
@@ -37,14 +37,34 @@
 - 錯誤帳密顯示紅色錯誤訊息，並清空密碼欄。
 - `admin`／`1234` 顯示綠色「登入成功」。
 - Enter 鍵綁定登入按鈕。
+- 從輸入框取得的字串，即使與字串常值不是同一個物件，仍可透過 `equals()` 正確登入。
+- `Admin` 與 `admin` 視為不同帳號；帳號會去除前後空白，密碼保留前後空白。
+- 實際派送視窗關閉事件後，程式正常結束。
 
-## 預定編譯與執行
+## 編譯與執行
+
+在本作業資料夾開啟 PowerShell：
 
 ```powershell
 javac -encoding UTF-8 -d out src\*.java
 java -cp out LoginWindow
 ```
 
+示範帳密僅用於本題本機練習。可先按空白登入、再輸入錯誤帳密，最後輸入 `admin`／`1234`，觀察提示與密碼清空的差別。
+
+## 檔案結構
+
+```text
+assignment-01/
+|-- src/LoginWindow.java
+|-- evidence/
+|   |-- assignment/作業_1.png
+|   |-- run/                     執行截圖與 verification.md
+|   `-- ai-dialogue/             10 張真實 AI 對話截圖
+|-- README.md
+`-- Reflection.md
+```
+
 ## AI 使用聲明
 
-本作業已使用 AI 協助整理題目、分析題目附帶的 AI 範例並產生修正版程式。真實 AI 對話截圖已保存於 `evidence/ai-dialogue/`；Reflection 草稿仍須經使用者確認並改成自己的表達。
+本作業已使用 AI 協助整理題目、分析題目附帶的 AI 範例、產生修正版程式與執行測試。真實 AI 對話截圖已保存於 `evidence/ai-dialogue/`；2026-11-01 的驗證屬於 AI 協助的自動測試。Reflection 已區分協作內容與本人提出的疑問，繳交前仍須本人確認理解及表達。
